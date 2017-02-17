@@ -16,12 +16,12 @@ $(document).ready(function() {
     
     // take the values passed when clicked and when the if else runs we will have the correlating div showing..
     
-    var choices = ["red", "blue", "green", "dog", "cat", "young", "middleAge", "old"];
+    var choices = ["ruby1", "ruby2", "ruby3", "android1", "android2", "android3", "design1", "design2", "design3", "php1", "php2", "php3", "cNet1", "cNet2", "cNet3"];
 
-    choices.forEach(function(info) {
-      var userAnswer = ("#" + info).toString();
-      var value = parseInt($(userAnswer).val());
-      var isChecked = $(userAnswer).is(':checked');
+    choices.forEach(function(choice) {
+      var userChoice = ("#" + choice).toString();
+      var value = parseInt($(userChoice).val());
+      var isChecked = $(userChoice).is(':checked');
 
       if (isChecked === true) {
         score = score + value;
