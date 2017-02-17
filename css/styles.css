@@ -1,7 +1,7 @@
 body {
   color: #fff;
   text-align: center;
-  background-color: #7D151A;
+  background-color: #236467;
 }
 
 /* Default Hide */
@@ -18,18 +18,22 @@ body {
   margin: 0 auto;
 }
 
+
 /* Header */
 
 .header {
   height: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #540004;
-  border-bottom: 4px solid #FBA7AB;
+  background-color: #ccc;
+  border-bottom: 4px solid #19B99A;
+  border-left: 4px solid #19B99A;
+  border-right: 4px solid #19B99A;
 }
 
 .header h1 {
   font-size: 80px;
+  color: #19B99A;
   font-family: fantasy;
 }
 
@@ -59,10 +63,11 @@ body {
 .bg-questions {
   height: auto;
   padding-top: 20px;
-  color: #fff;
-  border-top: 4px solid #FBA7AB;
-  border-bottom: 4px solid #FBA7AB;
-  background-color: #540004;
+  border-top: 4px solid #19B99A;
+  border-bottom: 4px solid #19B99A;
+  border-left: 4px solid #19B99A;
+  border-right: 4px solid #19B99A;
+  background-color: #ccc;
   padding-bottom: 100px;
 }
 
@@ -71,22 +76,25 @@ body {
 }
 
 .questions {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .checkbox {
   padding: 10px;
   font-size: 20px;
+  color: #494949;
 }
 
 .bg-questions h2 {
   padding-top: 40px;
-  font-size: 60px;
+  font-size: 80px;
+  color: #19B99A;
   font-family: cursive;
 }
 
 .bg-questions h4 {
   padding-top: 10px;
+  color: #494949;
   font-family: sans-serif;
 }
 
@@ -100,7 +108,7 @@ body {
 .bg-result {
   height: auto;
   padding-top: 50px;
-  background-color: #540004;
+  background-color: #0D4A4D;
   padding-bottom: 100px;
 }
 
@@ -123,9 +131,13 @@ body {
 /* Footer */
 
 .footer {
-  background-color: #540004;
+  background-color: #ccc;
   border-top: 4px solid #FBA7AB;
   padding: 30px;
+  color: #494949;
+  border-top: 4px solid #19B99A;
+  border-left: 4px solid #19B99A;
+  border-right: 4px solid #19B99A;
 }
 
 .footer footer {
