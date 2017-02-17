@@ -3,20 +3,20 @@ body {
   text-align: center;
 }
 
-.header {
-  height: 300px;
-  padding-top: 30px;
-  background-color: aqua;
-}
-
-.bg-result {
-  height: 500px;
-  background-color: green;
-}
+/* Generic */
 
 .col-centered {
   float: none;
   margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: aqua;
 }
 
 /* Scroll Text */
@@ -37,11 +37,6 @@ body {
   padding-left: 20px;
   padding-top: 20px;
   padding-right: 20px;
-}
-
-.text-scroll img {
-  position: relative;
-  top: 90px;
 }
 
 
@@ -69,6 +64,11 @@ body {
   font-family: cursive;
 }
 
+.bg-questions h4 {
+  padding-top: 10px;
+  font-family: sans-serif;
+}
+
 #submit {
   margin-top: 75px;
   font-size: 20px;
@@ -76,7 +76,17 @@ body {
 
 /* Result */
 
+.bg-result {
+  height: auto;
+  padding-top: 100px;
+  background-color: green;
+  padding-bottom: 100px;
+}
 
+.bg-result h3 {
+  font-size: 35px;
+  font-family: cursive;
+}
 
 /* Footer */
 
