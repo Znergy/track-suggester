@@ -1,7 +1,15 @@
 body {
   color: #fff;
   text-align: center;
+  background-color: #7D151A;
 }
+
+/* Default Hide */
+
+#rubyTrack, #androidTrack, #phpTrack, #designTrack, #cNetTrack {
+  display: none;
+}
+
 
 /* Generic */
 
@@ -16,7 +24,8 @@ body {
   height: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #ccc;
+  background-color: #540004;
+  border-bottom: 4px solid #FBA7AB;
 }
 
 .header h1 {
@@ -50,8 +59,15 @@ body {
 .bg-questions {
   height: auto;
   padding-top: 20px;
-  background-color: blueviolet;
+  color: #fff;
+  border-top: 4px solid #FBA7AB;
+  border-bottom: 4px solid #FBA7AB;
+  background-color: #540004;
   padding-bottom: 100px;
+}
+
+.question-header {
+  background-color: #FBA7AB;
 }
 
 .questions {
@@ -84,7 +100,7 @@ body {
 .bg-result {
   height: auto;
   padding-top: 50px;
-  background-color: green;
+  background-color: #540004;
   padding-bottom: 100px;
 }
 
@@ -107,7 +123,8 @@ body {
 /* Footer */
 
 .footer {
-  background-color: darksalmon;
+  background-color: #540004;
+  border-top: 4px solid #FBA7AB;
   padding: 30px;
 }
 
