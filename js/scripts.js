@@ -16,7 +16,17 @@ $(document).ready(function() {
     
     // take the values passed when clicked and when the if else runs we will have the correlating div showing..
     
-    
+    var choices = ["red", "blue", "green", "dog", "cat", "young", "middleAge", "old"];
+
+    choices.forEach(function(info) {
+      var userAnswer = ("#" + info).toString();
+      var value = parseInt($(userAnswer).val());
+      var isChecked = $(userAnswer).is(':checked');
+
+      if (isChecked === true) {
+        score = score + value;
+      }
+    });
     
     
     if (choiceTotal <= 6) {
