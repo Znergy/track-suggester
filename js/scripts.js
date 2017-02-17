@@ -12,9 +12,10 @@ $(document).ready(function() {
   
   var choiceTotal = 0;
   
-  $("#submit").on('click', function() {
+  $("#submit").one('click', function() {
     
     // take the values passed when clicked and when the if else runs we will have the correlating div showing..
+    
     
     
     
