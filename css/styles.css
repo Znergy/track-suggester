@@ -1,0 +1,55 @@
+body {
+  color: #fff;
+  text-align: center;
+}
+
+.extend-page {
+/*
+  margin-left: -40px;
+  margin-right: -40px;
+*/
+}
+
+.header {
+  height: 300px;
+  background-color: aqua;
+}
+
+
+.bg-custom-content {
+  height: 1000px;
+  background-color: blueviolet;
+}
+
+.bg-custom-info {
+  height: 500px;
+  background-color: green;
+}
+
+.content-main {
+  background-image: url(../img/code.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+
+.content-main h2 {
+  font-size: 50px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.content-main img {
+  position: relative;
+  top: 90px;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
