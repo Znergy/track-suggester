@@ -31,8 +31,10 @@
       
       <div class="bg-questions">
         <div class="container">
-          <h2>Questions</h2>
-          <h4>Choose all that apply!</h4>
+          <div class="question-header">
+            <h2>Questions</h2>
+            <h4>Choose all that apply!</h4>
+          </div>
           <div class="questions">
             <div class="row">
               <div class="col-md-4">
@@ -110,6 +112,11 @@
                     <input type="checkbox" name="design" value="1"> Front End Development
                   </label>
                 </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" name="ruby" value="3"> Agile Development
+                  </label>
+                </div>
               </div>
             </div>
             <div class="row">
@@ -124,20 +131,23 @@
       <div id="result" class="bg-result">
         <div class="result-header">
           <h2>Recommendation</h2>
+          <h4>Result will show here!</h4>
         </div>
         <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <img src="img/ruby.png" alt="ruby">
-            </div>
-            <div class="col-md-6 col-centered">
-              <h3>Ruby/Rails</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra, odio vel scelerisque ultricies, sapien urna sodales mauris, eu interdum dui leo a ex. Vivamus elementum ante quis viverra fermentum. Cras egestas finibus tempus. Cras at sapien sed libero egestas commodo ac non ipsum.
-              </p>
+          <div id="rubyTrack">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="img/ruby.png" alt="ruby">
+              </div>
+              <div class="col-md-6 col-centered">
+                <h3>Ruby/Rails</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra, odio vel scelerisque ultricies, sapien urna sodales mauris, eu interdum dui leo a ex. Vivamus elementum ante quis viverra fermentum. Cras egestas finibus tempus. Cras at sapien sed libero egestas commodo ac non ipsum.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="androidTrack">
+          <div id="androidTrack">
             <div class="row">
               <div class="col-md-6">
                 <img src="img/android.png" alt="ruby">
@@ -150,7 +160,7 @@
               </div>
             </div>
           </div>
-          <div class="phpTrack">
+          <div id="phpTrack">
             <div class="row">
               <div class="col-md-6">
                 <img src="img/php.png" alt="ruby">
@@ -163,7 +173,7 @@
               </div>
             </div>
           </div>
-          <div class="designTrack">
+          <div id="designTrack">
             <div class="row">
               <div class="col-md-6">
                 <img src="img/design.png" alt="ruby">
@@ -176,7 +186,7 @@
               </div>
             </div>
           </div>
-          <div class="cNetTrack">
+          <div id="cNetTrack">
             <div class="row">
               <div class="col-md-6">
                 <img src="img/c.png" alt="ruby">
