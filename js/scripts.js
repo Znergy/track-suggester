@@ -43,5 +43,11 @@ $(document).ready(function() {
       alert("You need to check something.");
     }
     
+    $(".header-hide").hide();
+    
+    $('html,body').animate({
+        scrollTop: $(".result-header").offset().top
+    },'slow');
+    
   });
 });
