@@ -24,12 +24,12 @@ $(document).ready(function() {
       var isChecked = $(userChoice).is(':checked');
 
       if (isChecked === true) {
-        score = score + value;
+        choiceTotal = choiceTotal + value;
       }
     });
     
     
-    if (choiceTotal <= 6) {
+    if (choiceTotal <= 6 && choiceTotal > 0) {
       $("#designTrack").show();
     } else if (choiceTotal > 6 && choiceTotal <= 12) {
       $("#phpTrack").show();
@@ -39,6 +39,8 @@ $(document).ready(function() {
       $("#androidTrack").show();
     } else if (choiceTotal > 24 && choiceTotal <= 45) {
       $("#cNetTrack").show();
+    } else {
+      alert("You need to check something.");
     }
     
   });
