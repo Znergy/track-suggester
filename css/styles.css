@@ -3,30 +3,25 @@ body {
   text-align: center;
 }
 
-.extend-page {
-/*
-  margin-left: -40px;
-  margin-right: -40px;
-*/
-}
-
 .header {
   height: 300px;
+  padding-top: 30px;
   background-color: aqua;
 }
 
-
-.bg-custom-content {
-  height: 1000px;
-  background-color: blueviolet;
-}
-
-.bg-custom-info {
+.bg-result {
   height: 500px;
   background-color: green;
 }
 
-.content-main {
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+/* Scroll Text */
+
+.text-scroll {
   background-image: url(../img/code.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -37,19 +32,63 @@ body {
   padding-top: 30px;
 }
 
-.content-main h2 {
+.text-scroll h2 {
   font-size: 50px;
   padding-left: 20px;
   padding-top: 20px;
   padding-right: 20px;
 }
 
-.content-main img {
+.text-scroll img {
   position: relative;
   top: 90px;
 }
 
-.col-centered {
-  float: none;
-  margin: 0 auto;
+
+/* Questions */
+
+.bg-questions {
+  height: auto;
+  padding-top: 20px;
+  background-color: blueviolet;
+  padding-bottom: 100px;
+}
+
+.questions {
+  padding-top: 100px;
+}
+
+.checkbox {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.bg-questions h2 {
+  padding-top: 40px;
+  font-size: 60px;
+  font-family: cursive;
+}
+
+#submit {
+  margin-top: 75px;
+  font-size: 20px;
+}
+
+/* Result */
+
+
+
+/* Footer */
+
+.footer {
+  background-color: darksalmon;
+  padding: 30px;
+}
+
+.footer footer {
+  font-size: 20px;
+}
+
+.font-icons {
+  padding: 10px;
 }
