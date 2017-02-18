@@ -4,7 +4,7 @@
 #### By: Ryan Jones
 
 ## Description:
-This is a site I built for my individual project at Epicodus, you can follow this link to view the page live from gh-pages, http://znergy.github.io/my-portfolio
+This is a site I built for my individual project at Epicodus, you can follow this link to view the page live from gh-pages, https://znergy.github.io/track-suggester/
 
 ## Known Bugs
 There are no known bugs, please reach out if you find any.
