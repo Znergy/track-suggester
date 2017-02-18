@@ -132,6 +132,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 35px;
 }
 
+.image-result {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.text-result {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-right: 60px;
+}
+
 /* Footer */
 
 .footer {
@@ -150,4 +163,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .font-icons {
   padding: 10px;
+}
+
+/***** Media Query's *****/
+
+@media screen and (max-width: 997px) {
+  
+  .img-break {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }

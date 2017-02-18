@@ -37,10 +37,11 @@ $(document).ready(function() {
       $("#rubyTrack").show();
     } else if (choiceTotal > 18 && choiceTotal <= 24) {
       $("#androidTrack").show();
-    } else if (choiceTotal > 24 && choiceTotal <= 45) {
+    } else if (choiceTotal > 24 && choiceTotal <= 64) {
       $("#cNetTrack").show();
     } else {
-      alert("You need to check something.");
+      alert("You need to check something."); 
+      location.reload();
     }
     
     $(".header-hide").hide();
